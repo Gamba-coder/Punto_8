@@ -1,0 +1,13 @@
+# Peso de cada engrane y cilindro en gramos
+peso_engran = 112
+peso_cilindro = 75
+
+# Leer el número de engranes y cilindros vendidos
+num_engranes = int(input("Introduce el número de engranes vendidos: "))
+num_cilindros = int(input("Introduce el número de cilindros vendidos: "))
+
+# Calcular el peso total del paquete
+peso_total = (num_engranes * peso_engran) + (num_cilindros * peso_cilindro)
+
+# Mostrar el peso total
+print(f"El peso total del paquete es: {peso_total} gramos")
